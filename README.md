@@ -21,6 +21,8 @@ Every scenario represents a distinct, isolated platform infrastructure failure e
 | **[Ticket #02: Route Table Fault](./lab1-aws-vpc-ec2/ticket-02-route-table-fault.md)** | VPC Subnet Routing Matrix | External HTTP applications drop off completely; Automated AWS Reachability Analyzer logs drop errors. | Restored the missing `0.0.0.0/0` edge routing string directed at the local VPC Internet Gateway. |
 | **[Ticket #03: Network ACL Fault](./lab1-aws-vpc-ec2/ticket-03-nacl-deny-fault.md)** | Stateless Subnet Boundary Firewalls | Total network path failure across all protocols; Local ICMP network pings return 100% data loss profiles. | Purged the high-priority stateless `Deny All` entry to clear lower-level network evaluation flows. |
 | **[Ticket #04: Nginx Service Fault](./lab1-aws-vpc-ec2/ticket-04-nginx-service-crash.md)** | Host System Application Layer | Browser connections drop immediately with `Connection Refused`. Linux socket trackers show Port 80 is inactive. | Analyzed background loops using `ss -tulpn` and re-initiated host processes via system utilities. |
+| **[Ticket #05: Monitoring Alert](./lab1-aws-vpc-ec2/ticket-05-cloudwatch-alarm.md)** | Amazon CloudWatch Service | Host CPU utilization limits breached; Monitoring dashboard flags a severe system resource exception. | Engineered simulated system loads using `stress` packages to trigger state modifications. |
+
 
 ---
 
