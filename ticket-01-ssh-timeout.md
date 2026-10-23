@@ -19,8 +19,8 @@ Following rule implementation, connection testing was re-evaluated via PowerShel
 
 ### 🖼️ Diagnostic Evidence
 **Figure 1.1: PowerShell Connection Drop State**
-![SSH Timeout Fault](<img width="1475" height="748" alt="ticket01-ssh-timeout" src="https://github.com/user-attachments/assets/08d78433-5fb4-4211-8964-c705c2a03e01" />)
+![SSH Timeout Fault]<img width="1475" height="748" alt="ticket01-ssh-timeout" src="https://github.com/user-attachments/assets/08d78433-5fb4-4211-8964-c705c2a03e01" />
 
 **Figure 1.2: Successful Infrastructure Entry After Security Group Fix**
-![SSH Session Resolved](<img width="1917" height="1024" alt="ticket01-ssh-resolved" src="https://github.com/user-attachments/assets/4d15ab09-8342-4ef9-a864-6314c23e33e0" />)
+![SSH Session Resolved]<img width="1917" height="1024" alt="ticket01-ssh-resolved" src="https://github.com/user-attachments/assets/4d15ab09-8342-4ef9-a864-6314c23e33e0" />
 
